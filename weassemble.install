@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function weassemble_install() {
+  // Set enabled themes
+  theme_enable(array('pixture_reloaded'));
+  variable_set('theme_default', 'pixture_reloaded');
+  variable_set('admin_theme', 'rubik');
+  theme_disable(array('bartik'));
+}
