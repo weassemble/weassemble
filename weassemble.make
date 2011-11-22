@@ -32,6 +32,10 @@ projects[coder][version] = 1.0
 ; Themes
 ;--------------------
 
+projects[adaptivetheme][type] = theme
+projects[adaptivetheme][version] = 2.1
+projects[adaptivetheme][subdir] = contrib
+
 projects[pixture_reloaded][type] = theme
 projects[pixture_reloaded][version] = 2.2
 projects[pixture_reloaded][subdir] = contrib
