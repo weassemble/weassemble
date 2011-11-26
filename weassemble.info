@@ -24,10 +24,11 @@ dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = features
+dependencies[] = image
 dependencies[] = module_filter
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
 
 ; Custom Features
-
+dependencies[] = wa_base

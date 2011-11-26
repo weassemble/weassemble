@@ -13,19 +13,11 @@ projects[tao][subdir] = contrib
 projects[rubik][subdir] = contrib
 
 ;--------------------
-; Contrib Modules
+; Additional Contrib
 ;--------------------
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.2
-
-projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.6
-
-
-;--------------------
-; Additional Contrib
-;--------------------
 
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0-beta6
@@ -33,11 +25,17 @@ projects[boxes][version] = 1.0-beta6
 projects[coder][subdir] = contrib
 projects[coder][version] = 1.0
 
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 1.6
+
 ;--------------------
 ; Custom Features
 ;--------------------
 
-
+projects[wa_base][type] = module
+projects[wa_base][subdir] = features
+projects[wa_base][download][type] = "git"
+projects[wa_base][download][url] = git@github.com:weassemble/wa_base.git
 
 ;--------------------
 ; Themes
