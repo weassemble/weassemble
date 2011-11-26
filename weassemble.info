@@ -5,6 +5,7 @@ description = A distro for managing people's assemblies. Based on Build Kit.
 ; Core
 dependencies[] = block
 dependencies[] = book
+dependencies[] = color
 dependencies[] = contact
 dependencies[] = dblog
 dependencies[] = field_ui

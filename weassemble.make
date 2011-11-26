@@ -39,3 +39,4 @@ projects[adaptivetheme][subdir] = contrib
 projects[pixture_reloaded][type] = theme
 projects[pixture_reloaded][version] = 2.2
 projects[pixture_reloaded][subdir] = contrib
+projects[pixture_reloaded][patch] = https://raw.github.com/gist/1394893/d369b9a1c802bb56d8ee7fd4e5325d2d4d4c89e0/pixture_reloaded-weassemble.patch
