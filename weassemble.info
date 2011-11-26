@@ -4,7 +4,6 @@ description = A distro for managing people's assemblies. Based on Build Kit.
 
 ; Core
 dependencies[] = block
-dependencies[] = book
 dependencies[] = color
 dependencies[] = contact
 dependencies[] = dblog
@@ -16,6 +15,7 @@ dependencies[] = taxonomy
 
 ; Contrib
 dependencies[] = admin
+dependencies[] = backup_migrate
 dependencies[] = boxes
 dependencies[] = coder
 dependencies[] = context
@@ -24,6 +24,7 @@ dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = diff
 dependencies[] = features
+dependencies[] = module_filter
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui

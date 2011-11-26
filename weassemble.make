@@ -13,6 +13,17 @@ projects[tao][subdir] = contrib
 projects[rubik][subdir] = contrib
 
 ;--------------------
+; Contrib Modules
+;--------------------
+
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.2
+
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 1.6
+
+
+;--------------------
 ; Additional Contrib
 ;--------------------
 
