@@ -136,6 +136,9 @@ projects[rules][version] = 2.0
 projects[rb][subdir] = contrib
 projects[rb][version] = 1.x-dev
 
+projects[shield][subdir] = contrib
+projects[shield][version] = 1.x-dev
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-beta7
 
@@ -149,10 +152,15 @@ projects[views_data_export][version] = 3.x-dev
 ; Custom Features
 ;--------------------
 
+projects[wa_assembly][type] = module
+projects[wa_assembly][subdir] = features
+projects[wa_assembly][download][type] = "git"
+projects[wa_assembly][download][url] = http://github.com/weassemble/wa_assembly.git
+
 projects[wa_base][type] = module
 projects[wa_base][subdir] = features
 projects[wa_base][download][type] = "git"
-projects[wa_base][download][url] = git@github.com:weassemble/wa_base.git
+projects[wa_base][download][url] = http://github.com/weassemble/wa_base.git
 
 ;--------------------
 ; Libraries
