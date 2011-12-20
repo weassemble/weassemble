@@ -127,9 +127,6 @@ projects[quicktabs][version] = 3.2
 projects[references][subdir] = contrib
 projects[references][version] = 2.x-dev
 
-projects[rel][subdir] = contrib
-projects[rel][version] = 1.0-alpha1
-
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.0
 
