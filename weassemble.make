@@ -8,9 +8,10 @@ includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.
 ; Build Kit overrides
 ;--------------------
 
-;projects[context][patch][] = http://drupal.org/files/context_ui_editor_form_class-1335928-1.patch
 projects[context][version] = 3.x-dev
 projects[context][revision] = af7719896d512504905a0abb7a2ccb12e79dff15
+projects[features][version] = 1.0-beta5
+projects[strongarm][version] = 2.0-beta5
 projects[views][version] = 3.0
 
 projects[tao][subdir] = contrib
@@ -117,7 +118,7 @@ projects[og_views][version] = 1.0
 projects[omega_tools][version] = 3.0-rc3
 projects[omega_tools][subdir] = contrib
 
-projects[openlayers][version] = 2.0-alpha2
+projects[openlayers][version] = 2.0-beta1
 projects[openlayers][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
@@ -140,7 +141,7 @@ projects[rules][subdir] = contrib
 projects[rules][version] = 2.0
 
 projects[shield][subdir] = contrib
-projects[shield][version] = 1.x-dev
+projects[shield][version] = 1.1
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-beta7
@@ -184,6 +185,6 @@ projects[adaptivetheme][version] = 2.1
 projects[adaptivetheme][subdir] = contrib
 
 projects[pixture_reloaded][type] = theme
-projects[pixture_reloaded][version] = 2.2
+projects[pixture_reloaded][version] = 2.x-dev
 projects[pixture_reloaded][subdir] = contrib
-projects[pixture_reloaded][patch][] = https://raw.github.com/gist/1394893/d369b9a1c802bb56d8ee7fd4e5325d2d4d4c89e0/pixture_reloaded-weassemble.patch
+projects[pixture_reloaded][patch][] = https://raw.github.com/gist/1394893/fadf3fa0496fee90ee57bbf60df14a220240e882/pixture_reloaded-weassemble.patch
