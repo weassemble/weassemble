@@ -11,7 +11,7 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "7.9"
+projects[drupal][version] = "7.10"
 
 ; Make system directories configurable to allow tests in profiles/[name]/modules to be run.
 ; http://drupal.org/node/911354
@@ -25,10 +25,10 @@ projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-a
 ; http://drupal.org/node/995156
 projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
 
-;projects[buildkit][type] = profile
-;projects[buildkit][download][type] = git
-;projects[buildkit][download][url] = http://git.drupal.org/project/buildkit.git
-;projects[buildkit][download][branch] = 7.x-2.x
+; projects[buildkit][type] = profile
+; projects[buildkit][download][type] = git
+; projects[buildkit][download][url] = http://git.drupal.org/project/buildkit.git
+; projects[buildkit][download][branch] = 7.x-2.x
 
 projects[weassemble][type] = profile
 projects[weassemble][download][type] = git

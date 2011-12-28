@@ -8,10 +8,12 @@ includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.
 ; Build Kit overrides
 ;--------------------
 
-projects[context][patch][] = http://drupal.org/files/context_ui_editor_form_class-1335928-1.patch
+;projects[context][patch][] = http://drupal.org/files/context_ui_editor_form_class-1335928-1.patch
+projects[context][version] = 3.x-dev
+projects[context][revision] = af7719896d512504905a0abb7a2ccb12e79dff15
+projects[views][version] = 3.0
 
 projects[tao][subdir] = contrib
-
 projects[rubik][subdir] = contrib
 
 ;--------------------
@@ -124,14 +126,18 @@ projects[pathauto][version] = 1.0
 projects[quicktabs][subdir] = contrib
 projects[quicktabs][version] = 3.2
 
+projects[rb][subdir] = contrib
+projects[rb][version] = 1.x-dev
+
+projects[rel][subdir] = contrib
+projects[rel][version] = 1.x-dev
+projects[rel][revision] = 15a895cad8fd46c6beb7661f11f73da2942161a9
+
 projects[references][subdir] = contrib
 projects[references][version] = 2.x-dev
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.0
-
-projects[rb][subdir] = contrib
-projects[rb][version] = 1.x-dev
 
 projects[shield][subdir] = contrib
 projects[shield][version] = 1.x-dev
