@@ -69,7 +69,7 @@ projects[front][version] = 2.0
 projects[fullcalendar][version] = 2.0-alpha7
 projects[fullcalendar][subdir] = contrib
 
-projects[geofield][version] = 1.0-beta2
+projects[geofield][version] = 1.0-beta1
 projects[geofield][subdir] = contrib
 
 projects[imagecache_profiles][subdir] = contrib
@@ -118,7 +118,7 @@ projects[og_views][version] = 1.0
 projects[omega_tools][version] = 3.0-rc3
 projects[omega_tools][subdir] = contrib
 
-projects[openlayers][version] = 2.0-beta1
+projects[openlayers][version] = 2.0-alpha2
 projects[openlayers][subdir] = contrib
 
 projects[pathauto][subdir] = contrib
